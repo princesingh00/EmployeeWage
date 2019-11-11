@@ -13,5 +13,7 @@ echo "case one expression value $exp1"
 exp2=$(( $num1+$num2*$num3 ))
 echo "case two expression value $exp2"
 exp3=$(( $num1+$num2/$num3 ))
-echo "case two expression value $exp3"
+echo "case third expression value $exp3"
+exp4=$(( $num1/$num2+$num3 ))
+echo "case fourth expression value $exp4"
 
