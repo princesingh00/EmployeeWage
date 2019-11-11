@@ -8,5 +8,8 @@ echo "Enter third number"
 read num3
 
 echo "Given numbers are $num1 $num2 $num3"
-exp=$(( $num1*$num2+$num3 ))
-echo "case one expression value $exp"
+exp1=$(( $num1*$num2+$num3 ))
+echo "case one expression value $exp1"
+exp2=$(( $num1+$num2*$num3 ))
+echo "case two expression value $exp2"
+
