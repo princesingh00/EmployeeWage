@@ -17,3 +17,5 @@ echo "case third expression value $exp3"
 exp4=$(( $num1/$num2+$num3 ))
 echo "case fourth expression value $exp4"
 
+array=($exp1 $exp2 $exp3 $exp4)
+echo ${array[@]}
