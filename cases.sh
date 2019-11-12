@@ -19,3 +19,5 @@ echo "case fourth expression value $exp4"
 
 array=($exp1 $exp2 $exp3 $exp4)
 echo $( printf "%s\n" ${array[@]} | sort -nr )
+echo $( printf "%s\n" ${array[@]} | sort -n )
+
